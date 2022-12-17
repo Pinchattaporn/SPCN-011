@@ -125,4 +125,6 @@
 13.ทำการปิดเครื่อง **เพื่อ Convert to template**
 
                  Convert to template ตัว Vm ล่าสุดที่เราได้ทำการ Setup ค่าต่างๆไว้
+                 
+![image](https://user-images.githubusercontent.com/110905426/208232006-b0b5c6ce-9924-4f30-b9f3-a8c2f693abac.png)
 
