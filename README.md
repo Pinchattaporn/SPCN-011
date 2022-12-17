@@ -66,3 +66,23 @@
 * 3.10 เมื่อ setup ทุกอย่างเสร็จ จะขึ้นหน้าต่าง Confirm destructive action
 
             เลือก Continue เพื่อทำการ Setup Profile
+
+4.Profile Setup
+            
+            กรอกข้อมูลต่างๆ 
+                Your name ,Your Server's name ,Choose a password ,Confirm your Password
+                
+5.SSH Setup
+
+            5.1 เลือก [x] Install open SSH server
+            5.2 Import SSH identity เลือก from Github
+            5.3 GitHub Username :ใส่ชื่อ Username Github
+            5.4 เลือก [x] Allow password authentication over SSH
+            5.5 พอตั้งค่าทุกอย่างเสร็จจะขึ้นหน้าต่าง Confirm SSH keys กด Yes
+
+6.Featured Server Snaps: Done
+
+7.Installing System
+
+              ขั้นตอนกำลังติดตั้ง ใช้เวลานานพอสมควร
+
