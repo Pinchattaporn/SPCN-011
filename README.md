@@ -132,5 +132,39 @@
 
 ![image](https://user-images.githubusercontent.com/110905426/208234602-2a6fc5d8-e66c-4fba-b581-968232b13cbd.png)
 
+* 14.1 กด Start ตัวเครื่อง clone 
+* 14.2 เข้า console และ reboot ระบบ
+
+                  เข้า login ใส่ password
+                  เช็ค timezone และการตั้งค่าอื่นๆ
+                  
+* 14.3 **Change hostname ใหม่**
+
+                   Sudo hostnameectl set-hostname........(ชื่อที่เราจะเปลี่ยน)
+                       ถ้าเปลี่ยนเสร็จชื่อใหม่ยังไม่ขึ้น ให้ใช้คำสั่ง bash
+           
+* 14.4 **Change ip แต่ละเครื่อง**
+                    
+                    เปลี่ยนค่าไอดีตัว vm เพื่อทำการขอ ip ใหม่ เพื่อไม่ให้ ip ที่เกิดจากการ โคลนจากตัว master มี ip ที่ซ้ำกัน ด้วยคำสั่ง
+                                        เช็ค ip เครื่องด้วยคำสั่ง ip a
+                                        sudo -i
+                                        rm /var/lib/dbus/machine-id
+                                        nano /etc/machine-id เพื่อลบ id เก่าออก
+                                        ln -s /etc/machine-id /var/lib/dbus/machine-id ทำการ link เชื่อมต่อกับ machine-id จะได้ไม่ต้องแก้หลายที่
+                                        reboot เพื่อรี ip ใหม่
+ 15. clone from template สร้าง vm ใหม่จำนวน 2 vm (สำเร็จ)
+                   
+![image](https://user-images.githubusercontent.com/110905426/208235254-0e762741-d6d4-47b9-a0c3-a6e7d9d8a01b.png)
+
+**Clone 1**
+
+![image](https://user-images.githubusercontent.com/110905426/208235345-1509143e-baf8-48c8-b17a-8395324f1c6c.png)
+
+**Clone 2**
+
+![image](https://user-images.githubusercontent.com/110905426/208235383-68784dc0-0bcb-44ac-8590-babdaa786a31.png)
+
+
+
 
 
