@@ -154,6 +154,8 @@
                                         reboot เพื่อรี ip ใหม่
  15. vm(master) และ clone from template สร้าง vm ใหม่จำนวน 2 vm (สำเร็จ)
  
+ **Summary**
+ 
  **master**
  
  ![image](https://user-images.githubusercontent.com/110905426/208235502-48e9c8b3-7aa7-4ee6-bb85-f4caae42b217.png)
@@ -169,6 +171,65 @@
 
 ![image](https://user-images.githubusercontent.com/110905426/208235383-68784dc0-0bcb-44ac-8590-babdaa786a31.png)
 
+**Watch**
+
+**clone**
+
+![image](https://user-images.githubusercontent.com/110905426/208235745-269107e7-7508-49ca-b9a0-7d9df69c410a.png)
+
+**clone 2**
+
+![image](https://user-images.githubusercontent.com/110905426/208235800-f291b79b-948f-48d6-a5aa-b656fef392fc.png)
+
+
+# create vm from other os 
+
+summary
+
+![image](https://user-images.githubusercontent.com/110905426/208236841-90fe0130-c1e9-44c6-8a65-374bf45dc4a4.png)
+
+![image](https://user-images.githubusercontent.com/110905426/208236856-7a6a3c13-179c-4e26-8619-4407cb305789.png)
+
+
+
+
+# create container template (select from CT list)
+
+1.Create LXC Container
+             
+             การตั้งค่าส่วนต่างๆจะคล้าย Vm
+             ตั้งค่าส่วนต่างๆตามค่า  default
+                  Network ipv4 เลือก DHCP
+                  Network ipv6 เลือก SLAAC
+             พอตั้งค่าทุกอย่างเสร็จกด Finish
+
+2. เข้า console ทำการเช็คค่าต่างๆ
+              
+              เช็ค timezone และ Setup
+                    sudo timedatectl set-timezone Asia/Bangkok
+                    date
+              เช็ค Network
+                    ping 1.1.1.1
+              เช็ค package
+                    apt update;  apt upgrade -y
+                    รออับเตดเสร็จและ clear หน้า console
+
+3.container ที่สร้างสำเร็จ
+
+**Summary**
+
+![image](https://user-images.githubusercontent.com/110905426/208236224-6e09f263-a479-48c6-b0f5-814965070312.png)
+
+![image](https://user-images.githubusercontent.com/110905426/208236234-4eb043d1-c7cd-45fb-85aa-5a7271e1b1b2.png)
+
+
+**console**
+
+![image](https://user-images.githubusercontent.com/110905426/208236579-4c0d0e6c-d1fc-4703-8fcc-58b579ea124c.png)
+
+
+
+            
 
 
 
