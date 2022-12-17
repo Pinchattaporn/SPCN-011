@@ -116,4 +116,11 @@
                      ntpdate th.pool.ntp.org : ntp ซิ้งค์ไปหา Network time
                      whereis ntpdate :ซิ้งค์เวลาเป็นรอบ(เช่น ชั่วโมง)
 
+12.ทำการ **reboot ระบบ
+
+                และ recheck command ที่เราติดตั้งไว้
+            
+13.ทำการปิดเครื่อง **เพื่อ Convert to template**
+
+                 Convert to template ตัว Vm ล่าสุดที่เราได้ทำการ Setup ค่าต่างๆไว้
 
