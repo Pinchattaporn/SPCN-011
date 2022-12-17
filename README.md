@@ -152,7 +152,12 @@
                                         nano /etc/machine-id เพื่อลบ id เก่าออก
                                         ln -s /etc/machine-id /var/lib/dbus/machine-id ทำการ link เชื่อมต่อกับ machine-id จะได้ไม่ต้องแก้หลายที่
                                         reboot เพื่อรี ip ใหม่
- 15. clone from template สร้าง vm ใหม่จำนวน 2 vm (สำเร็จ)
+ 15. vm(master) และ clone from template สร้าง vm ใหม่จำนวน 2 vm (สำเร็จ)
+ 
+ **master**
+ 
+ ![image](https://user-images.githubusercontent.com/110905426/208235502-48e9c8b3-7aa7-4ee6-bb85-f4caae42b217.png)
+
                    
 ![image](https://user-images.githubusercontent.com/110905426/208235254-0e762741-d6d4-47b9-a0c3-a6e7d9d8a01b.png)
 
