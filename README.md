@@ -85,4 +85,35 @@
 7.Installing System
 
               ขั้นตอนกำลังติดตั้ง ใช้เวลานานพอสมควร
+8.ทำการตั้งค่าเวลาใหม่ **Setup timezone**
+               
+               ทำการ cler และใช้คำสั่งต่อไปนี้
+               Sudo timedatectl set-timezone Asia/Bankok : เปลี่ยน timezone ให้เป็น localtime
+               Sudo apt Update;sudo aptUpgrade -y : อับเดตเวอร์ชันซอฟต์แวร์ต่างๆ
+
+9.ติดตั้ง **agent**
+
+                Sudo apt install qemu-guest-agent :ติดตั้งเสร็จกด check
+                Sudo systemctl start qemu-guest-agent 
+                Sudo systemctl status qemu-guest-agent 
+                    รอรันให้เสร็จ agent จะทำงาน ตรง jps-summary จะขึ้นข้อมูลต่างๆ
+                    
+ 10.ติดตั้ง **namo**
+  
+                apt install namo
+                
+ 11.ทดสอบการใช้ **Network**
+ 
+                ping 1.1.1.1 : เช็คNetwork เช็คcommandว่าผ่านมั้ย
+                ติดตั้ง iptils-ping ติดตั้งเพื่อให้ command ผ่าน
+                     apt install iputils-ping
+                     ลอง ping 1.1.1.1 อีกรอบ
+                ติดตั้ง dns
+                     apt install  dnsutills
+                     เมื่อติดตั้งเสร็จใช้คำสั่ง dig เพื่อทดสอบ
+                ติดตั้ง ntpdate
+                     apt install ntpdate
+                     ntpdate th.pool.ntp.org : ntp ซิ้งค์ไปหา Network time
+                     whereis ntpdate :ซิ้งค์เวลาเป็นรอบ(เช่น ชั่วโมง)
+
 
