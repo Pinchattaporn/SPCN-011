@@ -184,11 +184,17 @@
 
 # create vm from other os 
 
+* สร้าง Create VM ตั้งค่าต่างๆตามที่กำหนด โดยจะใช้ระบบปฏิบัติการ Kali
+
+
 summary
 
 ![image](https://user-images.githubusercontent.com/110905426/208236841-90fe0130-c1e9-44c6-8a65-374bf45dc4a4.png)
 
 ![image](https://user-images.githubusercontent.com/110905426/208236856-7a6a3c13-179c-4e26-8619-4407cb305789.png)
+
+![image](https://user-images.githubusercontent.com/110905426/208237294-e33dd41f-7ad3-4fda-9dd2-ab73b005b00d.png)
+
 
 
 
