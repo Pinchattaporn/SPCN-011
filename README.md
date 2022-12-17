@@ -128,5 +128,9 @@
                  
 ![image](https://user-images.githubusercontent.com/110905426/208232006-b0b5c6ce-9924-4f30-b9f3-a8c2f693abac.png)
 
-14.**clone from template สร้าง vm ใหม่จำนวน 2 vm
+14.**clone from template สร้าง vm ใหม่จำนวน 2 vm**
+
+![image](https://user-images.githubusercontent.com/110905426/208234602-2a6fc5d8-e66c-4fba-b581-968232b13cbd.png)
+
+
 
