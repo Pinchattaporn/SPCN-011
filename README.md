@@ -96,7 +96,7 @@
                 Sudo apt install qemu-guest-agent :ติดตั้งเสร็จกด check
                 Sudo systemctl start qemu-guest-agent 
                 Sudo systemctl status qemu-guest-agent 
-                    รอรันให้เสร็จ agent จะทำงาน ตรง jps-summary จะขึ้นข้อมูลต่างๆ
+                    รอรันให้เสร็จ agent จะทำงาน ตรง ips-summary จะขึ้นข้อมูลต่างๆ
   ![image](https://user-images.githubusercontent.com/110905426/208231778-95ae73d3-c489-41f1-a155-c3701a945158.png)
 
                     
